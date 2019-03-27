@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ciclo de Vida do Projeto"
+author: "WildCat Development"
 ---
 
 A *WildCat Development* escolheu utilizar o modelo iterativo incremental, orientado pela metodologia ágil *SCRUM*
