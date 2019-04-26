@@ -45,9 +45,20 @@ $(document).ready(function(){
         time: 1000
     });
 
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
 
 });
 
-
-
-
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 1000) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+});
