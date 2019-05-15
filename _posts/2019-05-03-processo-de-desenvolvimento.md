@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Detalhamento"
+title: "Processo de Desenvolvimento"
 author: "WildCat Development"
 ---
 
